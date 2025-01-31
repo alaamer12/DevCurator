@@ -1,0 +1,18 @@
+author_weight: 0.7
+content_preferences:
+  case_studies: 0.6
+  news: 0.4
+  opinion: 0.3
+  tutorials: 0.8
+engagement_weight: 0.5
+favorite_tags:
+- python
+- javascript
+- webdev
+max_reading_time: 20
+min_reading_time: 5
+preferred_sources:
+- Dev.to
+- freeCodeCamp
+recency_weight: 0.8
+tag_match_weight: 0.9
