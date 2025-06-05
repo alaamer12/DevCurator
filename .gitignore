@@ -1,46 +1,66 @@
-# Python
-__pycache__/
+# Temporary and binary files
+*~
 *.py[cod]
-*$py.class
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-venv/
-.venv/
-env/
-ENV/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Project specific
-saved_posts/*
-!saved_posts/.gitkeep
-config.yaml
-.env
-
-# Logs
+*.cfg
+!.isort.cfg
+!setup.cfg
+*.orig
 *.log
-
-# System
+*.pot
+__pycache__/*
+.cache/*
+.*.swp
+*/.ipynb_checkpoints/*
 .DS_Store
-Thumbs.db
+email_list.json
+used_accounts.txt
+credentials.json
+registration_data.json
+filtered_registration_data.json
+success_screenshots/*
+failing_screenshots/*
+successful_accounts_
+
+# Project files
+.ropeproject
+.project
+.pydevproject
+.settings
+.idea/*
+.vscode
+tags
+true/logs/
+logs/
+dist/
+docs/build/*
+# Package files
+*.egg
+*.eggs/
+.installed.cfg
+*.egg-info
+
+# Unittest and coverage
+htmlcov/*
+.coverage
+.coverage.*
+.tox
+junit*.xml
+coverage.xml
+.pytest_cache/
+
+# Build and docs folder/files
+build/*
+dist/*
+sdist/*
+docs/api/*
+docs/_rst/*
+docs/_build/*
+cover/*
+MANIFEST
+
+# Per-project virtualenvs
+.venv*/
+.conda*/
+.python-version
+tests/__pycache__/*

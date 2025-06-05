@@ -1,0 +1,7 @@
+max_posts_per_source: 10
+save_directory: saved_posts
+tags:
+- python
+- javascript
+- webdev
+- programming
